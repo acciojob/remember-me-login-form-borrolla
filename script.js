@@ -30,8 +30,8 @@ document.getElementById("loginForm").addEventListener("submit",function (e) {
 	}
 	else
 	{
-		localStorage.removeItem('username');
-        localStorage.removeItem('password');
+		localStorage.removeItem("username");
+        localStorage.removeItem("password");
        document.getElementById("existing").style.display = "none";
 	}
 	
