@@ -23,7 +23,7 @@ document.getElementById("loginForm").addEventListener("submit",function (e) {
 
 	 alert("Logged in as " + username);
 
-	if(rememberCheckbox.checked){
+	if(remember){
 		localStorage.setItem("username", username);
 		localStorage.setItem("password", password);
 		 document.getElementById("existing").style.display = "inline-block";
